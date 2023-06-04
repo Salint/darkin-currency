@@ -1,0 +1,15 @@
+name: DarkinCurrency
+description: Currency for Darkin SMP
+main: me.salint.darkincurrency.Main
+version: 1.0.0
+api-version: 1.19
+author: Salint
+commands:
+  balance:
+    description: Check your current balance.
+    usage: /<command>
+    aliases: money
+  pay:
+    description: Pay someone money.
+    usage: /<command> [player] [amount]
+    aliases: givemoney
